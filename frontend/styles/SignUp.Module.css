@@ -1,14 +1,349 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=K2D:wght@100;700&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-body {
-  @apply leading-[normal] m-0;
+.cifigmaIcon {
+  position: absolute;
+  top: 1087px;
+  left: 28px;
+  width: 212px;
+  height: 212px;
+  overflow: hidden;
 }
-*,
-::before,
-::after {
-  border-width: 0;
+.signUpChild,
+.signUpItem {
+  position: absolute;
+  top: 169px;
+  border-radius: 40px;
+  height: 1024px;
+}
+.signUpChild {
+  left: 374px;
+  background: linear-gradient(204.28deg, #e6cece, #d1ccf4);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(24px);
+  width: 643px;
+}
+.signUpItem {
+  left: 955px;
+  background-color: #fefefe;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+  width: 915px;
+}
+.saly1Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.saly1 {
+  position: absolute;
+  height: 54.59%;
+  width: 42.9%;
+  top: 31.03%;
+  right: 45.45%;
+  bottom: 14.38%;
+  left: 11.65%;
+  backdrop-filter: blur(4px);
+}
+.bicoin,
+.groupIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.bicoin {
+  top: 740px;
+  left: 1397px;
+  background-color: #403c3c;
+  width: 32px;
+  height: 32px;
+}
+.groupIcon {
+  height: 4.81%;
+  width: 3.15%;
+  top: 13.79%;
+  right: 78.66%;
+  bottom: 81.4%;
+  left: 18.18%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.createAccount {
+  position: absolute;
+  top: 300px;
+  left: 1080px;
+  font-size: 36px;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+  color: #000;
+  display: inline-block;
+  width: 346px;
+  height: 44px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  background: radial-gradient(50% 50%at 50% 50%, #e6cece, #d1ccf4);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 20px rgba(0, 0, 0, 0.25);
+  width: 349px;
+  height: 86px;
+}
+.createAccount1 {
+  position: absolute;
+  top: 20px;
+  left: 85px;
+  display: inline-block;
+  width: 212px;
+  height: 46px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 1048px;
+  left: 1234px;
+  width: 349px;
+  height: 86px;
+  font-size: 27px;
+  font-family: "Hind Guntur";
+}
+.rectangleDiv,
+.signUpInner {
+  position: absolute;
+  top: 375px;
+  left: 1080px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1.7px solid rgba(188, 186, 186, 0.76);
+  box-sizing: border-box;
+  width: 276px;
+  height: 67px;
+}
+.rectangleDiv {
+  left: 1469px;
+}
+.logosgoogleIcon,
+.signUpChild1 {
+  position: absolute;
+  top: 390px;
+  left: 1484px;
+  width: 33px;
+  height: 33px;
+}
+.logosgoogleIcon {
+  top: 392px;
+  left: 1094px;
+  width: 30px;
+  height: 30.7px;
+  overflow: hidden;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 16.5px;
+  left: -1.5px;
+  border-top: 3px solid rgba(188, 186, 186, 0.76);
+  box-sizing: border-box;
+  width: 51px;
+  height: 3px;
+}
+.groupInner {
+  left: 110.5px;
+}
+.lineParent,
+.or {
+  position: absolute;
+  height: 24px;
+}
+.or {
+  top: 0;
+  left: 58px;
+  letter-spacing: 0.07em;
+  font-weight: 300;
+  display: inline-block;
+  width: 46px;
+}
+.lineParent {
+  top: 479px;
+  left: 1334px;
+  width: 160px;
+  font-size: 29px;
+  color: rgba(188, 186, 186, 0.76);
+}
+.english {
+  top: 202px;
+  left: 1722px;
+  color: #968e8e;
+  display: inline-block;
+  width: 92px;
+  height: 26px;
+}
+.english,
+.lk,
+.vectorIcon {
+  position: absolute;
+}
+.lk {
+  top: 200px;
+  left: 1814px;
+  display: inline-block;
+  font-family: K2D;
+  color: #bcbaba;
+  width: 34px;
+  height: 38px;
+}
+.vectorIcon {
+  top: 229.95px;
+  left: 1821.71px;
+  width: 13.57px;
+  height: 7.31px;
+}
+.signInFcebook,
+.signInGoogle {
+  position: absolute;
+  top: 391px;
+  left: 1148px;
+  font-weight: 100;
+  font-family: K2D;
+  color: rgba(36, 36, 36, 0.49);
+  display: inline-block;
+  width: 152px;
+  height: 27px;
+}
+.signInFcebook {
+  top: 390px;
+  left: 1538px;
+  width: 185px;
+}
+.signUpChild2,
+.signUpChild3,
+.signUpChild4 {
+  position: absolute;
+  top: 591px;
+  left: 1080px;
+  background-color: #fff;
+  border: 4px solid #b7b7b7;
+  box-sizing: border-box;
+  width: 665px;
+  height: 90px;
+}
+.signUpChild3,
+.signUpChild4 {
+  top: 718px;
+  left: 1082px;
+}
+.signUpChild4 {
+  top: 845px;
+}
+.email,
+.password,
+.username {
+  position: absolute;
+  top: 622px;
+  left: 1101px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: rgba(152, 144, 144, 0.76);
+  display: inline-block;
+  width: 94px;
+  height: 28px;
+}
+.password,
+.username {
+  top: 749px;
+  left: 1100px;
+  width: 174px;
+}
+.password {
+  top: 876px;
+  width: 134px;
+}
+.antDesignlockFilledIcon,
+.bipersonFillIcon,
+.evaemailOutlineIcon {
+  position: absolute;
+  top: 736px;
+  left: 1669px;
+  width: 54px;
+  height: 54px;
+  overflow: hidden;
+}
+.antDesignlockFilledIcon,
+.evaemailOutlineIcon {
+  top: 609px;
+}
+.antDesignlockFilledIcon {
+  top: 863px;
+}
+.signUp1 {
+  position: absolute;
+  top: 30px;
+  left: 44px;
+  font-size: 64px;
+  display: inline-block;
+  font-family: "Hind Guntur";
+  width: 330px;
+  height: 104px;
+}
+.lineDiv {
+  position: absolute;
+  top: 94.5px;
+  left: 280.5px;
+  border-top: 7px solid #fff;
+  box-sizing: border-box;
+  width: 109px;
+  height: 7px;
+}
+.dontYouHave {
+  font-weight: 500;
+}
+.clickHere {
+  font-size: 24px;
+  color: #84bcf0;
+}
+.dontYouHaveContainer {
+  position: absolute;
+  top: 959px;
+  left: 1403px;
+  display: inline-block;
+  width: 380px;
+  height: 46px;
+  font-size: 22px;
+  color: rgba(83, 78, 78, 0.83);
+  font-family: "Hind Guntur";
+}
+.joinWithUs {
+  margin: 0;
+}
+.ui {
+  background: linear-gradient(103.63deg, #e6cece 19.9%, #84bcf0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.joinWithUsContainer {
+  position: absolute;
+  top: 274px;
+  left: 420px;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 610px;
+  height: 139px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.signUp {
+  position: relative;
+  background: linear-gradient(144.23deg, rgba(209, 204, 244, 0.69), #e6cece);
+  width: 100%;
+  height: 1363px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
 }
