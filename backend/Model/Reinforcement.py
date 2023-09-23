@@ -6,6 +6,7 @@ syllabus = {
     'Topic 3': ['Subtopic 3.1', 'Subtopic 3.2', 'Subtopic 3.3', 'Subtopic 3.4', 'Subtopic 3.5'],
 }
 
+
 states = list(syllabus.keys()) 
 num_actions = len(syllabus[states[0]]) 
 

@@ -3,7 +3,6 @@ syllabus = {
     'Topic 2': ['Subtopic 2.1', 'Subtopic 2.2', 'Subtopic 2.3'],
     'Topic 3': ['Subtopic 3.1', 'Subtopic 3.2', 'Subtopic 3.3', 'Subtopic 3.4', 'Subtopic 3.5'],
 }
-
 def determine_next_subtopics(test_results, response_time, current_topic, current_subtopic):
 
     passing_score_threshold = 70
